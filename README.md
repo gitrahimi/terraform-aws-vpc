@@ -18,7 +18,7 @@ private_cidr3               =   "10.0.3.0/24"
 ###  Please add the following code into module.tf file
 ```
 module "aws-vpc" {
-    source                      =   "git@github.com:gitrahimi/terrraform-aws-vpc.git"
+    source                      =   "gitrahimi/vpc/aws"
     region                      =   "${var.region}"
     cidr_block                  =   "${var.cidr_block}"       
     public_cidr1                =   "${var.public_cidr1}"   
