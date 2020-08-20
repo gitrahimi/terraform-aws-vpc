@@ -38,6 +38,6 @@ terraform apply -var-file environment.tfvars
 
 ``` 
 ### To Destroy
-'''
 terraform destroy -var-file environment.tfvars
+
 
