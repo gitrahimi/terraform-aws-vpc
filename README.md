@@ -37,8 +37,11 @@ module "wordpress" {
 terraform apply -var-file environment.tfvars
 
 ``` 
-### To Destroy
+
+### To destroy, run 
+``` 
 terraform destroy -var-file environment.tfvars
 
+``` 
 
 
